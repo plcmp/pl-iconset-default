@@ -1,6 +1,6 @@
 {
     "name": "@plcmp/pl-iconset-default",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Default icons for components.",
     "main": "pl-iconset-default.js",
     "repository": {
@@ -8,6 +8,9 @@
     },
     "license": "MIT",
     "type": "module",
+    "publishConfig": {
+        "access": "public"
+    },
     "author": {
         "name": "Azat Yamalov",
         "email": "yamalov.azat@live.com"
