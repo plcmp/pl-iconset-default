@@ -275,7 +275,10 @@ const template = html`
                 </g>
                 <g id="repeat">
                     <path fill-rule="evenodd"
-                        d="M9.82 3.116l-3-2.5-.64.768L8.119 3H7.5a6.5 6.5 0 105.28 2.708l-.812.584A5.5 5.5 0 117.5 4h.619l-1.94 1.616.641.768 3-2.5.461-.384-.46-.384z" />
+                        d="M9.82 3.116l-3-2.5-.64.768L8.119 3H7.5a6.5 6.5 0 105.28 2.708l-.812.584A5.5 5.5 0 117.5 4h.619l-1.94 1.616.641.768 3-2.5.461-.384-.46-.384z">
+                        <animateTransform attributeName="transform" type="rotate" repeatCount="indefinite" dur="1s"
+                            keyTimes="0;1" values="0 8 8;360 8 8"></animateTransform>
+                    </path>
                 </g>
                 <g id="report">
                     <path fill-rule="evenodd"
@@ -288,7 +291,7 @@ const template = html`
                 <g id="search">
                     <path fill-rule="evenodd"
                         d="M12 7A5 5 0 112 7a5 5 0 0110 0zm-1.126 4.582a6 6 0 11.707-.707l3.773 3.771-.708.708-3.772-3.772z">
-                        <animateTransform attributeName="transform" type="translate" repeatCount="indefinite" dur="1s"
+                        <animateTransform attributeName="transform" type="rotate" repeatCount="indefinite" dur="1s"
                             keyTimes="0;0.5;1" values="0 8 8;90 8 8;0 8 8"></animateTransform>
                     </path>
                 </g>
