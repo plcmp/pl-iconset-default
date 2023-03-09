@@ -1,6 +1,6 @@
 {
     "name": "@plcmp/pl-iconset-default",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "description": "Default icons for components.",
     "main": "pl-iconset-default.js",
     "repository": {
