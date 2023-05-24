@@ -1,4 +1,4 @@
-import { html } from "polylib";
+import { html, TemplateInstance } from "polylib";
 import '@plcmp/pl-iconset';
 
 const template = html`
@@ -426,4 +426,6 @@ const template = html`
         </svg>
     </pl-iconset>`
 
-template.stamp({ root: document.head });
+
+let instance = new TemplateInstance(template);
+instance.attach(document.head);
