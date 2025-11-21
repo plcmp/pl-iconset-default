@@ -416,7 +416,7 @@ const template = html`
                     <path d="M8 1L4 7h8L8 1z" />
                 </g>
                 <g id="sort-desc">
-                    <path fill="#464B52" d="M8 15L4 9h8l-4 6z" />
+                    <path d="M8 15L4 9h8l-4 6z" />
                 </g>
                 <g id="filter">
                     <path fill-rule="evenodd" clip-rule="evenodd"
